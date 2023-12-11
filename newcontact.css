@@ -1,0 +1,52 @@
+
+#newcontactform{
+    width: 90%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.name-container,
+.email-container,
+.company-type-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-labels,
+.email-labels,
+.company-label,
+.type-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.name-inputs,
+.email-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.label {
+    margin-right: 10px;
+}
+
+#titleSelector{
+    width:50px;
+}
+
+#assignedSelector{
+    width: 100px;
+}

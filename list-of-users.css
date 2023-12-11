@@ -1,0 +1,53 @@
+.users{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#addUser{
+    background-color: rgb(58, 58, 185);
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    color: white;
+    margin-right: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.tContainer{
+    background-color: white;
+    width: 80%;
+    border: 1px solid grey;
+    margin: auto;
+    padding: 10px;
+}
+
+.userTable{
+    margin-top: 15px;
+    text-align: center;
+    
+}
+
+.user-list-table{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+th, td {
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+
+#row-headings{
+    background-color:#EFEFEF ;
+}
+
